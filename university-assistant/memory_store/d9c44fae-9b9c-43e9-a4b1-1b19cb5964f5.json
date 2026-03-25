@@ -1,0 +1,31 @@
+{
+  "session_id": "d9c44fae-9b9c-43e9-a4b1-1b19cb5964f5",
+  "entity": {
+    "name": null,
+    "student_id": null,
+    "program": null,
+    "year": null,
+    "department": null,
+    "nationality": "domestic",
+    "email": null,
+    "interests": [],
+    "completed_courses": [],
+    "ongoing_issues": [],
+    "created_at": "2026-03-25T19:46:17.661073",
+    "updated_at": "2026-03-25T19:46:17.661073"
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hii",
+      "timestamp": "2026-03-25T19:46:17.662067"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm having trouble connecting to the AI model. Please try again in a moment.",
+      "timestamp": "2026-03-25T19:47:21.672237"
+    }
+  ],
+  "summary": "",
+  "turn_count": 1
+}

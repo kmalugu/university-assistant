@@ -1,0 +1,81 @@
+{
+  "session_id": "31a300a8-10a0-4693-8776-c58535aa3ace",
+  "entity": {
+    "name": "Himanshu Kumar",
+    "student_id": null,
+    "program": "BTech",
+    "year": 3,
+    "department": "Management",
+    "nationality": "domestic",
+    "email": null,
+    "interests": [],
+    "completed_courses": [],
+    "ongoing_issues": [],
+    "created_at": "2026-03-25T20:51:43.491389",
+    "updated_at": "2026-03-25T20:53:22.879787"
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hii",
+      "timestamp": "2026-03-25T20:51:43.492726"
+    },
+    {
+      "role": "assistant",
+      "content": "Hi there! \ud83d\udc4b\n\nWelcome to UniAssist! I'm your friendly AI advisor here at the university. I can help you with all sorts of things, from academics and course selection to deadlines, fees, campus navigation, and even placement guidelines.\n\nSince you're a domestic student, I can guide you through everything relevant to your journey here.\n\nHow can I help you today? Feel free to ask me anything! \ud83d\ude0a",
+      "timestamp": "2026-03-25T20:51:46.744054"
+    },
+    {
+      "role": "user",
+      "content": "My name is Karthik",
+      "timestamp": "2026-03-25T20:51:59.167095"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello Karthik! It's great to meet you! \ud83d\ude0a\n\nThanks for letting me know your name. Now that I know, I can personalize our chat even better for you.\n\nWhat can I assist you with today, Karthik? I'm here to help with any questions you might have about your studies, university life, or anything else!",
+      "timestamp": "2026-03-25T20:52:01.697907"
+    },
+    {
+      "role": "user",
+      "content": "What is my name?",
+      "timestamp": "2026-03-25T20:52:10.715694"
+    },
+    {
+      "role": "assistant",
+      "content": "Your name is Karthik! \ud83d\ude0a",
+      "timestamp": "2026-03-25T20:52:12.680354"
+    },
+    {
+      "role": "user",
+      "content": "What is the minimum attendance required?",
+      "timestamp": "2026-03-25T20:52:26.330285"
+    },
+    {
+      "role": "assistant",
+      "content": "Hi Karthik!\n\nThat's a very important question! According to the university's academic policies:\n\nYou need to maintain a **minimum of 75% attendance in each course** to be eligible for the end-semester exams.\n\nJust so you know, if your attendance falls below 75%, you might be debarred from taking those exams. If you happen to be absent due to a medical reason, remember to submit a doctor's certificate within 3 working days. Also, if you're on official duty (like NCC, NSS, or Sports), you'll be marked present if you get prior permission.\n\nIn genuine cases, a shortage of attendance (up to 10%) might be condoned by the HOD if you submit a written application.\n\nLet me know if you have any other questions about attendance or anything else!",
+      "timestamp": "2026-03-25T20:52:30.082588"
+    },
+    {
+      "role": "user",
+      "content": "Tell me about himanshu kumar",
+      "timestamp": "2026-03-25T20:53:40.589479"
+    },
+    {
+      "role": "assistant",
+      "content": "Ah, Himanshu Kumar!\n\nBased on the information I have, Himanshu Kumar is a **domestic student** in the **BTech program**, currently in their **3rd year**, and is part of the **Management Department**.\n\nIs there anything specific you'd like to know or discuss about Himanshu Kumar, Karthik?",
+      "timestamp": "2026-03-25T20:53:43.294154"
+    },
+    {
+      "role": "user",
+      "content": "What are the prerequisites for ML301?",
+      "timestamp": "2026-03-25T20:54:03.413918"
+    },
+    {
+      "role": "assistant",
+      "content": "Hi Karthik!\n\nI can certainly help you with that!\n\nFor the **ML301: Machine Learning** course, the prerequisites are:\n\n*   **AI101**\n*   **MATH301**\n*   **STAT201**\n\nMake sure you've completed these courses before registering for ML301.\n\nLet me know if you have any other questions about courses or anything else!",
+      "timestamp": "2026-03-25T20:54:06.497331"
+    }
+  ],
+  "summary": "",
+  "turn_count": 6
+}

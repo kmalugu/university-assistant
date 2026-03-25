@@ -1,0 +1,41 @@
+# ── Core Framework ────────────────────────────────────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.30.0
+pydantic==2.7.1
+python-multipart==0.0.9
+
+# ── Streamlit UI ──────────────────────────────────────────────────────────────
+streamlit==1.35.0
+
+# ── LangChain + Ollama ────────────────────────────────────────────────────────
+langchain==0.2.5
+langchain-community==0.2.5
+langchain-core==0.2.9
+
+# ── Vector Store ──────────────────────────────────────────────────────────────
+chromadb==0.5.0
+# Alternative: faiss-cpu==1.8.0
+
+# ── Embeddings ────────────────────────────────────────────────────────────────
+sentence-transformers==3.0.0
+
+# ── ML / NLP utilities (sklearn fallback for in-memory store) ─────────────────
+scikit-learn==1.4.2
+numpy==1.26.4
+
+# ── HTTP ─────────────────────────────────────────────────────────────────────
+requests==2.32.2
+httpx==0.27.0
+
+# ── Data handling ─────────────────────────────────────────────────────────────
+pandas==2.2.2
+
+# ── Evaluation ────────────────────────────────────────────────────────────────
+nltk==3.8.1
+rouge-score==0.1.2
+bert-score==0.3.13     # Optional — requires PyTorch
+matplotlib==3.9.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+tqdm==4.66.4

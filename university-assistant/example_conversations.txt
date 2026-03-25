@@ -1,0 +1,117 @@
+EXAMPLE STUDENT CONVERSATIONS
+==============================
+
+--- Conversation 1: Course Planning (BTech Year 2) ---
+
+Student: Hi, I'm Riya. I'm in BTech 2nd year Computer Science. Can I take ML301 this semester?
+
+UniAssist: Hi Riya! I've noted your profile — BTech Year 2, Computer Science.
+
+ML301 (Machine Learning) is typically a Year 3 course and requires these prerequisites:
+  • AI101 — Introduction to Artificial Intelligence
+  • MATH301 — Advanced Mathematics
+  • STAT201 — Probability & Statistics
+
+As a 2nd year student, you likely haven't completed these yet. I'd recommend:
+1. Take AI101 this semester (it's offered in Year 3, but check with your faculty advisor)
+2. Complete MATH201 (Probability & Statistics) — this is the Year 2 version
+3. Plan ML301 for your 3rd year
+
+Want me to show the full timetable for Year 2 so you can plan your electives?
+
+---
+
+--- Conversation 2: International Student Onboarding ---
+
+Student: I just arrived from Germany for my MBA program. What do I need to do first?
+
+UniAssist: Welcome to university! Here's your urgent checklist as an international MBA student:
+
+WITHIN 14 DAYS (Mandatory):
+  • FRRO (Foreigners Regional Registration Office) registration — failure to register is a visa violation
+  • Contact the International Student Cell (ISC) in Admin Block, Room 101
+  • Email: isc@university.edu | They'll guide you through FRRO
+
+FIRST WEEK:
+  • Attend ISC orientation (they'll pair you with a local buddy student)
+  • Activate health insurance (mandatory for international students — group policy via university)
+  • Collect student ID from Registrar's Office
+  • Set up WiFi: Connect to "UniCampus" with your portal credentials
+
+FEES NOTE:
+  • Your MBA tuition is Rs. 2,50,000/semester (international rate)
+  • Payment via SWIFT transfer is accepted — contact finance@university.edu
+
+Anything specific you'd like help with — hostel, library access, or your first week schedule?
+
+---
+
+--- Conversation 3: Scholarship Eligibility ---
+
+Student: My name is Amit and I'm BTech 3rd year with 8.9 CGPA. Am I eligible for any scholarships?
+
+UniAssist: Great performance, Amit! With a 9.1 CGPA in BTech Year 3, you're eligible for:
+
+🏆 MERIT SCHOLARSHIP
+  • Benefit: 50% tuition waiver per semester (saves Rs. 42,500/semester)
+  • Requirement: CGPA >= 8.5 ✅ (yours: 8.9)
+  • Apply by: August 15, 2024
+  • Annual savings: ~Rs. 85,000
+
+Also consider:
+  • Sports Excellence Scholarship (if you're a national/state level athlete)
+  • International Exchange Scholarship (CGPA >= 7.5 for exchange programs) ✅
+
+Apply on the student portal or contact Financial Aid Office (Admin Block, Room 102).
+Would you like help understanding the application process?
+
+---
+
+--- Conversation 4: Attendance Warning ---
+
+Student: My attendance in CS401 is 68%. Can I still give the end-semester exam?
+
+UniAssist: I can see this is a concern, Amit. Here's the situation:
+
+The university policy requires a minimum of 75% attendance to appear for end-semester exams. At 68%, you are currently below the required threshold.
+
+YOUR OPTIONS:
+1. Condonation Request — You can apply to your HOD (Dr. Anita Sharma for CSE) if:
+   • You have genuine reasons (medical, official duty)
+   • Shortage is within the condonable limit (usually up to 10%, so 65–74%)
+   • At 68% you are within the condonable range
+
+2. What to do NOW:
+   • Write a formal application to the HOD with supporting documents
+   • If medical: attach doctor's certificate (within 3 working days of absence)
+   • Submit before the exam hall ticket release date
+
+3. If not condoned:
+   • You will be debarred from the exam
+   • Supplementary exam option available after results
+
+Please act quickly — contact Dr. Anita Sharma (anita.sharma@university.edu) today.
+
+---
+
+--- Conversation 5: Fee Query with Payment Approaching ---
+
+Student: When is the fee payment deadline? I'm BTech domestic student.
+
+UniAssist: Your BTech (domestic) fee payment is due:
+  • Odd Semester: 15th July
+  • Even Semester: 15th January
+
+FEE BREAKDOWN (per semester):
+  • Tuition: Rs. 85,000
+  • Library: Rs. 2,000 | Lab: Rs. 5,000
+  • Sports: Rs. 1,500 | Medical: Rs. 1,500
+  • Total (without hostel): Rs. 95,000
+  • Total (with hostel): Rs. 1,55,000
+
+LATE FINE: Rs. 100/day after the deadline — try to pay on time!
+
+Payment modes: Online portal (preferred), DD/Cheque, Bank Transfer
+If you're facing financial difficulty, apply for Need-Based Financial Aid by August 1st — up to 75% tuition waiver is available.
+
+Shall I help you check scholarship eligibility?

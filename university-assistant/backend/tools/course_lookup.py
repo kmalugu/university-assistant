@@ -1,43 +1,130 @@
+"""
+Course Lookup Tool
+Looks up course details by code or keyword, filtered by program.
+"""
 import json
 from pathlib import Path
-from langchain_core.tools import tool
+from typing import Optional
 
-# Assuming your imports map correctly to where your schemas are saved
-from backend.tools.schemas import CourseQuery
-
-BASE_DIR = Path(__file__).resolve().parents[2]
-DATA_FILE = BASE_DIR / "data/course_catalog/courses.json"
-FACULTY_FILE = BASE_DIR / "data/faculty/faculty.json"
+DATA_PATH = Path(__file__).parent.parent.parent / "data" / "course_catalog" / "courses.json"
 
 
-def load_faculty_map():
-    with open(FACULTY_FILE, "r") as f:
-        faculty_list = json.load(f)
-    return {f["faculty_id"]: f["name"] for f in faculty_list}
+def load_courses():
+    with open(DATA_PATH, "r") as f:
+        return json.load(f)["courses"]
 
 
-@tool(args_schema=CourseQuery)
-def get_course_info(course_name: str) -> dict:
-    """CRITICAL: You MUST use this tool whenever the user asks for details about a specific course.
-    It returns the course ID, credits, department, and assigned faculty.
-    DO NOT explain how to call this tool, simply execute it."""
+def get_course_by_code(course_code: str) -> Optional[dict]:
+    """Fetch a single course by its code (e.g., 'AI101')."""
+    courses = load_courses()
+    code = course_code.strip().upper()
+    for c in courses:
+        if c["code"].upper() == code:
+            return c
+    return None
 
-    faculty_map = load_faculty_map()
 
-    try:
-        with open(DATA_FILE, "r") as f:
-            courses = json.load(f)
+def search_courses(keyword: str = None, program: str = None, year: int = None, department: str = None) -> list:
+    """
+    Search courses by keyword, program, year, or department.
 
-        for course in courses:
-            if course_name.lower() in course["course_name"].lower():
-                return {
-                    "course_id": course['course_id'],
-                    "course_name": course['course_name'],
-                    "credits": course['credits'],
-                    "department": course['department'],
-                    "faculty": faculty_map.get(course['faculty_id'], "Unknown"),
-                }
-        return {"error": f"Course matching '{course_name}' not found in the catalog."}
+    Args:
+        keyword: Partial match against title, code, or description
+        program: Filter by program (BTech, MBA, MSc, PhD)
+        year: Filter by year (1-4)
+        department: Filter by department name
 
-    except FileNotFoundError:
-        return {"error": "Course catalog database file not found."}
+    Returns:
+        List of matching course dicts
+    """
+    courses = load_courses()
+    results = []
+
+    for c in courses:
+        match = True
+
+        if keyword:
+            kw = keyword.lower()
+            if not (
+                kw in c["title"].lower()
+                or kw in c["code"].lower()
+                or kw in c.get("description", "").lower()
+                or any(kw in t.lower() for t in c.get("syllabus", []))
+            ):
+                match = False
+
+        if program and program not in c.get("programs", []):
+            match = False
+
+        if year and c.get("year") != year:
+            match = False
+
+        if department and department.lower() not in c.get("department", "").lower():
+            match = False
+
+        if match:
+            results.append(c)
+
+    return results
+
+
+def check_prerequisites(course_code: str, completed_courses: list = None) -> dict:
+    """
+    Check if a student meets prerequisites for a course.
+
+    Args:
+        course_code: The course code to check
+        completed_courses: List of course codes the student has completed
+
+    Returns:
+        dict with 'eligible', 'missing_prerequisites', and 'course' info
+    """
+    course = get_course_by_code(course_code)
+    if not course:
+        return {"eligible": False, "error": f"Course {course_code} not found"}
+
+    prereqs = course.get("prerequisites", [])
+    if not prereqs:
+        return {
+            "eligible": True,
+            "missing_prerequisites": [],
+            "message": f"No prerequisites required for {course_code}",
+            "course": course,
+        }
+
+    completed = [c.upper() for c in (completed_courses or [])]
+    missing = [p for p in prereqs if p.upper() not in completed]
+
+    return {
+        "eligible": len(missing) == 0,
+        "missing_prerequisites": missing,
+        "required_prerequisites": prereqs,
+        "message": (
+            f"You meet all prerequisites for {course_code}."
+            if not missing
+            else f"You need to complete: {', '.join(missing)} before taking {course_code}."
+        ),
+        "course": course,
+    }
+
+
+def format_course_summary(course: dict) -> str:
+    """Format a course dict into a human-readable summary."""
+    if not course:
+        return "Course not found."
+
+    prereqs = ", ".join(course.get("prerequisites", [])) or "None"
+    programs = ", ".join(course.get("programs", []))
+    syllabus = ", ".join(course.get("syllabus", []))
+    lab = f"\n  Lab: {course['lab_timings']}" if course.get("lab_timings") else ""
+
+    return (
+        f"📚 {course['code']}: {course['title']}\n"
+        f"  Credits: {course['credits']} | Year: {course['year']} | Department: {course['department']}\n"
+        f"  Programs: {programs}\n"
+        f"  Prerequisites: {prereqs}\n"
+        f"  Description: {course.get('description', '')}\n"
+        f"  Syllabus: {syllabus}\n"
+        f"  Lectures: {course.get('lecture_timings', 'TBA')} — Room {course.get('classroom', 'TBA')}{lab}\n"
+        f"  Faculty: {course.get('faculty', 'TBA')}"
+    )

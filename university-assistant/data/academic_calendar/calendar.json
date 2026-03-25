@@ -1,114 +1,92 @@
-[
-  {
-    "event_id": "E001",
-    "title": "Semester Start - Odd Semester",
-    "type": "academic",
-    "start_date": "2026-03-01",
-    "end_date": "2026-07-01",
-    "description": "Commencement of odd semester classes for all departments."
+{
+  "academic_year": "2024-25",
+  "semesters": {
+    "odd": {
+      "name": "Odd Semester (Jul-Nov)",
+      "start": "2024-07-22",
+      "end": "2024-11-30",
+      "registration_window": {
+        "start": "2024-07-01",
+        "end": "2024-07-18",
+        "late_registration_end": "2024-07-25",
+        "late_fee": 500
+      },
+      "holidays": [
+        {"date": "2024-08-15", "name": "Independence Day"},
+        {"date": "2024-09-07", "name": "Ganesh Chaturthi"},
+        {"date": "2024-10-02", "name": "Gandhi Jayanti"},
+        {"date": "2024-10-12", "name": "Dussehra"},
+        {"date": "2024-11-01", "name": "Kannada Rajyotsava"},
+        {"date": "2024-11-15", "name": "Diwali"}
+      ],
+      "internal_exams": [
+        {"name": "IA-1", "start": "2024-08-26", "end": "2024-08-30"},
+        {"name": "IA-2", "start": "2024-10-14", "end": "2024-10-18"}
+      ],
+      "end_semester_exams": {
+        "start": "2024-11-25",
+        "end": "2024-12-10"
+      },
+      "result_declaration": "2024-12-20",
+      "events": [
+        {"date": "2024-09-15", "name": "Tech Fest - Innovate 2024"},
+        {"date": "2024-10-25", "name": "Cultural Week"},
+        {"date": "2024-11-10", "name": "Placement Season Opens"}
+      ]
+    },
+    "even": {
+      "name": "Even Semester (Jan-May)",
+      "start": "2025-01-06",
+      "end": "2025-05-15",
+      "registration_window": {
+        "start": "2024-12-15",
+        "end": "2025-01-03",
+        "late_registration_end": "2025-01-10",
+        "late_fee": 500
+      },
+      "holidays": [
+        {"date": "2025-01-14", "name": "Makar Sankranti"},
+        {"date": "2025-01-26", "name": "Republic Day"},
+        {"date": "2025-03-14", "name": "Holi"},
+        {"date": "2025-04-14", "name": "Dr. Ambedkar Jayanti"},
+        {"date": "2025-04-18", "name": "Good Friday"}
+      ],
+      "internal_exams": [
+        {"name": "IA-1", "start": "2025-02-10", "end": "2025-02-14"},
+        {"name": "IA-2", "start": "2025-03-24", "end": "2025-03-28"}
+      ],
+      "end_semester_exams": {
+        "start": "2025-05-05",
+        "end": "2025-05-20"
+      },
+      "result_declaration": "2025-05-30",
+      "events": [
+        {"date": "2025-02-20", "name": "Sports Week"},
+        {"date": "2025-03-08", "name": "Women in Tech Symposium"},
+        {"date": "2025-04-05", "name": "Annual Day"}
+      ]
+    }
   },
-  {
-    "event_id": "E002",
-    "title": "Course Registration Deadline",
-    "type": "academic",
-    "start_date": "2026-07-10",
-    "end_date": "2026-07-10",
-    "description": "Last date to register for courses without late fee."
-  },
-  {
-    "event_id": "E003",
-    "title": "Internal Assessment 1",
-    "type": "exam",
-    "start_date": "2026-08-10",
-    "end_date": "2026-08-15",
-    "description": "First round of internal examinations."
-  },
-  {
-    "event_id": "E004",
-    "title": "Independence Day Celebration",
-    "type": "holiday",
-    "start_date": "2026-08-15",
-    "end_date": "2026-08-15",
-    "description": "National holiday and campus celebration."
-  },
-  {
-    "event_id": "E005",
-    "title": "Mid-Semester Break",
-    "type": "holiday",
-    "start_date": "2026-09-20",
-    "end_date": "2026-09-25",
-    "description": "Break for students after mid-term exams."
-  },
-  {
-    "event_id": "E006",
-    "title": "Internal Assessment 2",
-    "type": "exam",
-    "start_date": "2026-10-10",
-    "end_date": "2026-10-15",
-    "description": "Second round of internal examinations."
-  },
-  {
-    "event_id": "E007",
-    "title": "Project Submission Deadline",
-    "type": "academic",
-    "start_date": "2026-11-05",
-    "end_date": "2026-11-05",
-    "description": "Final year students must submit project reports."
-  },
-  {
-    "event_id": "E008",
-    "title": "End Semester Exams",
-    "type": "exam",
-    "start_date": "2026-11-20",
-    "end_date": "2026-12-05",
-    "description": "Final examinations for all courses."
-  },
-  {
-    "event_id": "E009",
-    "title": "Semester End",
-    "type": "academic",
-    "start_date": "2026-12-10",
-    "end_date": "2026-12-10",
-    "description": "Conclusion of odd semester."
-  },
-  {
-    "event_id": "E010",
-    "title": "Winter Vacation",
-    "type": "holiday",
-    "start_date": "2026-12-15",
-    "end_date": "2027-01-05",
-    "description": "Winter break for students."
-  },
-  {
-    "event_id": "E011",
-    "title": "Semester Start - Even Semester",
-    "type": "academic",
-    "start_date": "2027-01-10",
-    "end_date": "2027-01-10",
-    "description": "Commencement of even semester classes."
-  },
-  {
-    "event_id": "E012",
-    "title": "Placement Drive - Phase 1",
-    "type": "placement",
-    "start_date": "2026-09-01",
-    "end_date": "2026-09-10",
-    "description": "First phase of campus recruitment."
-  },
-  {
-    "event_id": "E013",
-    "title": "Hackathon Event",
-    "type": "event",
-    "start_date": "2026-10-01",
-    "end_date": "2026-10-02",
-    "description": "24-hour coding hackathon open to all students."
-  },
-  {
-    "event_id": "E014",
-    "title": "Annual Cultural Fest",
-    "type": "event",
-    "start_date": "2026-10-25",
-    "end_date": "2026-10-27",
-    "description": "University-wide cultural festival."
+  "program_specific": {
+    "BTech": {
+      "internship_window": "May-Jul 2025",
+      "project_submission": "2025-04-30",
+      "thesis_defense": null
+    },
+    "MBA": {
+      "internship_window": "Apr-Jun 2025",
+      "project_submission": "2025-04-15",
+      "thesis_defense": null
+    },
+    "PhD": {
+      "comprehensive_exam": "2024-10-10",
+      "thesis_submission": "Rolling basis",
+      "thesis_defense": "Rolling basis"
+    },
+    "MSc": {
+      "internship_window": "May-Jul 2025",
+      "project_submission": "2025-04-30",
+      "thesis_defense": null
+    }
   }
-]
+}

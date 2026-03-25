@@ -1,56 +1,103 @@
+"""
+Timetable Tool
+Returns weekly timetable for a student based on program and year.
+"""
 import json
 from pathlib import Path
-from langchain_core.tools import tool
-from backend.tools.schemas import StudentQuery
 
-BASE_DIR = Path(__file__).resolve().parents[2]
+DATA_PATH = Path(__file__).parent.parent.parent / "data" / "timetable" / "timetable.json"
 
-TIMETABLE_FILE = BASE_DIR / "data/timetable/timetable.json"
-STUDENT_FILE = BASE_DIR / "data/students/students.json"
+DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
 
-@tool(args_schema=StudentQuery)
-def get_timetable(student_id: str) -> dict:
-    """CRITICAL: You MUST use this tool whenever a student asks about their classes, schedule, timetable, or where they need to be.
-    DO NOT guess the schedule. You must trigger this tool using the student's unique ID to fetch their specific weekly timetable."""
+def load_timetable():
+    with open(DATA_PATH, "r") as f:
+        return json.load(f)
 
-    try:
-        # 1. Load student data
-        with open(STUDENT_FILE, 'r') as f:
-            students = json.load(f)
 
-        student = next((s for s in students if s["student_id"] == student_id), None)
+def get_timetable(program: str, year: int) -> dict:
+    """
+    Get the full weekly timetable for a program/year combination.
 
-        if not student:
-            return {"error": f"Student ID '{student_id}' not found in the database."}
+    Args:
+        program: Student program (BTech, MBA, PhD, MSc)
+        year: Year of study (1, 2, 3, 4)
 
-        department = student["department"]
-        year = student["year"]
+    Returns:
+        dict keyed by day with list of schedule entries
+    """
+    data = load_timetable()
+    tt = data.get("timetables", {})
 
-        # Optional: If your students.json has "section", grab it here!
-        # section = student.get("section", "A")
+    # Normalize program
+    program = program.strip()
 
-        # 2. Load timetable data
-        with open(TIMETABLE_FILE, 'r') as f:
-            timetable = json.load(f)
+    program_tt = tt.get(program, {})
+    year_key = f"Year{year}"
+    year_tt = program_tt.get(year_key, {})
 
-        # 3. Filter timetable (Case-insensitive for safety)
-        result = [
-            t for t in timetable
-            if t['department'].lower() == department.lower() and t['year'] == year
-        ]
+    if not year_tt:
+        # Fallback to nearest available
+        available = list(program_tt.keys())
+        if not available:
+            return {"error": f"No timetable found for {program} Year {year}"}
+        year_tt = program_tt[available[0]]
 
-        if not result:
-            return {"error": f"Timetable not found for Department: {department}, Year: {year}"}
+    # Add room location details
+    locations = data.get("campus_locations", {})
+    enriched = {}
+    for day, slots in year_tt.items():
+        enriched_slots = []
+        for slot in slots:
+            room = slot.get("room", "")
+            loc_info = locations.get(room, {})
+            enriched_slots.append({
+                **slot,
+                "building": loc_info.get("building", ""),
+                "floor": loc_info.get("floor", ""),
+            })
+        enriched[day] = enriched_slots
 
-        return {
-            "student_id": student_id,
-            "department": department,
-            "year": year,
-            "timetable": result,
-        }
+    return enriched
 
-    except FileNotFoundError as e:
-        return {"error": f"Database file missing: {str(e)}"}
-    except Exception as e:
-        return {"error": f"An error occurred while fetching the timetable: {str(e)}"}
+
+def get_day_schedule(program: str, year: int, day: str) -> list:
+    """Get schedule for a specific day."""
+    tt = get_timetable(program, year)
+    if "error" in tt:
+        return [tt]
+    day = day.capitalize()
+    return tt.get(day, [])
+
+
+def get_lab_schedule(program: str, year: int) -> list:
+    """Return only lab sessions from the timetable."""
+    tt = get_timetable(program, year)
+    if "error" in tt:
+        return []
+    labs = []
+    for day, slots in tt.items():
+        for slot in slots:
+            if slot.get("type") == "Lab":
+                labs.append({"day": day, **slot})
+    return labs
+
+
+def format_timetable(program: str, year: int) -> str:
+    """Return a formatted text timetable."""
+    tt = get_timetable(program, year)
+    if "error" in tt:
+        return tt["error"]
+
+    lines = [f"📅 Weekly Timetable — {program} Year {year}\n{'='*50}"]
+    for day in DAYS:
+        slots = tt.get(day, [])
+        if not slots:
+            lines.append(f"\n{day}: No classes")
+            continue
+        lines.append(f"\n{day}:")
+        for s in slots:
+            icon = "🧪" if s["type"] == "Lab" else "📖"
+            room_info = f"{s['room']}" + (f" ({s['building']})" if s.get("building") else "")
+            lines.append(f"  {icon} {s['time']} | {s['subject']} | {room_info} [{s['type']}]")
+    return "\n".join(lines)

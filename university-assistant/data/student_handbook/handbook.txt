@@ -1,126 +1,100 @@
-UNIVERSITY STUDENT HANDBOOK
+WELCOME TO UNIVERSITY STUDENT HANDBOOK 2024-25
+================================================
 
-----------------------------------------
-1. INTRODUCTION
-----------------------------------------
-Welcome to the University Student Handbook. This guide provides essential information about academic policies, campus facilities, student responsibilities, and support services. Students are expected to read and follow all guidelines mentioned in this handbook.
+ABOUT THE UNIVERSITY
+---------------------
+Our university is a premier institution of higher learning offering programs in Technology, Management, and Sciences. Established in 1985, we have been ranked among the top 50 universities in India by NIRF.
 
-----------------------------------------
-2. ACADEMIC STRUCTURE
-----------------------------------------
-The academic year is divided into two semesters:
-- Odd Semester (July – November)
-- Even Semester (January – May)
+ACADEMIC PROGRAMS OFFERED
+--------------------------
+Undergraduate:
+- B.Tech in Computer Science (4 years)
+- B.Tech in Electronics & Communication (4 years)
+- B.Tech in Mechanical Engineering (4 years)
+- BSc in Data Science (3 years)
 
-Each course is assigned credits based on workload. Students must complete the required credits to graduate.
+Postgraduate:
+- M.Tech in Computer Science (2 years)
+- MSc in Data Science (2 years)
+- MBA (2 years - Evening/Weekend for working professionals)
+- MSc in Applied Mathematics (2 years)
 
-Grading System:
-A+ : 9.0 – 10.0
-A  : 8.0 – 8.9
-B+ : 7.0 – 7.9
-B  : 6.0 – 6.9
-C  : 5.0 – 5.9
-F  : Fail
+Doctoral:
+- PhD in all major departments (3-6 years)
 
-----------------------------------------
-3. ATTENDANCE POLICY
-----------------------------------------
-- Minimum 75% attendance is mandatory for all courses.
-- Students below 75% may not be allowed to sit for examinations.
-- Medical leave must be supported with valid documents.
-- Attendance is monitored regularly.
+Exchange Programs:
+- Semester exchange with 15+ international partner universities
+- Students can spend 1-2 semesters abroad while maintaining enrollment
 
-----------------------------------------
-4. EXAMINATION RULES
-----------------------------------------
-- Students must carry their ID cards to the examination hall.
-- Late entry beyond 30 minutes is not allowed.
-- Malpractice (cheating) will lead to strict disciplinary action.
-- Electronic devices are strictly prohibited.
+STUDENT SERVICES
+-----------------
+Academic Advising:
+Each student is assigned a Faculty Advisor who helps with course selection, academic planning, and career guidance. Students should meet their advisor at least once per semester.
 
-----------------------------------------
-5. CODE OF CONDUCT
-----------------------------------------
-Students are expected to:
-- Maintain discipline on campus.
-- Respect faculty, staff, and fellow students.
-- Avoid any form of harassment or misconduct.
-- Follow ethical academic practices.
+Career Services (Placement Cell):
+- Resume review and mock interviews
+- Company registration and on-campus recruitment
+- Alumni networking events
+- Industry internship assistance
+Location: Admin Block, Ground Floor | Email: placement@university.edu
 
-Strictly Prohibited:
-- Ragging (will result in immediate suspension or expulsion)
-- Substance abuse (alcohol, drugs, smoking)
-- Violence or vandalism
+Financial Aid Office:
+- Scholarship applications and disbursements
+- Student loan assistance and documentation
+- Financial hardship support
+Location: Admin Block, Room 102 | Hours: 9 AM to 5 PM (Mon-Fri)
 
-----------------------------------------
-6. CAMPUS FACILITIES
-----------------------------------------
-Library:
-- Open from 8:00 AM to 8:00 PM
-- Students can borrow up to 5 books
+International Student Cell (ISC):
+- Visa and immigration support
+- Cultural adjustment programs
+- Buddy program (pairing new international students with local students)
+Location: Admin Block, Room 101 | Email: isc@university.edu
 
-Laboratories:
-- Access allowed only during scheduled hours
-- Proper lab safety protocols must be followed
+CAMPUS MAP KEY LOCATIONS
+-------------------------
+- Main Gate: North side, near Bus Stand
+- Admin Block: Central Campus
+- CS Block: East wing
+- DS Block: Adjacent to CS Block
+- Math Block: Near Library
+- MBA Block: West wing
+- Research Block: Behind Library
+- Lecture Hall Complex: Center of campus
+- Library: Central location
+- Sports Complex: South campus
+- Cafeteria (Main): Central Block
+- Medical Center: Near Main Gate
+- Hostel Boys (Block A, B, C): North campus
+- Hostel Girls (Block D, E): South campus
+- Auditorium: Near Admin Block
+- ATM: Near Main Gate, Library, Hostel Zone
 
-Hostel:
-- Entry time: 9:00 PM
-- Visitors allowed between 4:00 PM and 7:00 PM
-- Students must adhere to hostel rules
+WIFI AND TECHNOLOGY
+--------------------
+- Campus-wide WiFi: SSID "UniCampus" — login with student ID and portal password
+- VPN required for off-campus access to e-resources
+- IT Help Desk: it.support@university.edu | Ext: 6700
+- Student Portal: https://portal.university.edu
 
-----------------------------------------
-7. PLACEMENT AND CAREER SERVICES
-----------------------------------------
-The placement cell assists students with:
-- Internship opportunities
-- Resume building
-- Mock interviews
-- Campus recruitment drives
+TRANSPORT
+----------
+- University buses ply on 12 routes covering major residential areas
+- Bus pass available at Transport Office (Admin Block) — Rs. 2500/semester
+- Shuttle service between campus and railway station at 7 AM, 8 AM, 5 PM, 6 PM
 
-Eligibility:
-- Minimum CGPA of 6.5 (may vary by company)
-- No active backlogs
+GRIEVANCE REDRESSAL
+--------------------
+- Student Grievance Cell: grievance@university.edu
+- Anti-Ragging Committee: anti-ragging@university.edu | Helpline: 1800-180-5522
+- ICC (Internal Complaints Committee) for sexual harassment cases
+- Ombudsman Office: For escalation of unresolved complaints
 
-----------------------------------------
-8. SCHOLARSHIPS AND FINANCIAL AID
-----------------------------------------
-Types of scholarships:
-- Merit-based scholarships
-- Need-based financial assistance
-- Government-funded scholarships
-
-Students must apply through the university portal before deadlines.
-
-----------------------------------------
-9. STUDENT SUPPORT SERVICES
-----------------------------------------
-Counseling Services:
-- Available for mental health and academic stress
-
-Grievance Cell:
-- Students can report issues related to academics or campus life
-
-Anti-Ragging Committee:
-- Strictly monitors and prevents ragging activities
-
-----------------------------------------
-10. DISCIPLINARY ACTIONS
-----------------------------------------
-Violation of rules may result in:
-- Warning
-- Suspension
-- Expulsion (in severe cases)
-
-----------------------------------------
-11. CONTACT INFORMATION
-----------------------------------------
-University Office:
-Email: info@university.edu
-Phone: +91-9876543210
-
-Placement Cell:
-Email: placements@university.edu
-
-----------------------------------------
-END OF HANDBOOK
-----------------------------------------
+IMPORTANT CONTACTS
+-------------------
+- Dean of Students: dean.students@university.edu | Ext: 6000
+- Dean of Academics: dean.academics@university.edu | Ext: 6001
+- Dean of Research: dean.research@university.edu | Ext: 6002
+- Registrar's Office: registrar@university.edu | Ext: 6003
+- Examinations Cell: exams@university.edu | Ext: 6004
+- Finance Office: finance@university.edu | Ext: 6005
+- Health Center (Emergency): +91-80-2345-6999

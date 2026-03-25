@@ -1,0 +1,46 @@
+{
+  "session_id": "75c942d1-e039-4250-86f6-3836e3656553",
+  "entity": {
+    "name": "Karthik",
+    "student_id": null,
+    "program": null,
+    "year": null,
+    "department": null,
+    "nationality": "domestic",
+    "email": null,
+    "interests": [],
+    "completed_courses": [],
+    "ongoing_issues": [],
+    "created_at": "2026-03-25T19:54:18.059588",
+    "updated_at": "2026-03-25T20:02:41.054412"
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hii",
+      "timestamp": "2026-03-25T19:54:18.061008"
+    },
+    {
+      "role": "assistant",
+      "content": " Hello there! I'm UniAssist, your friendly AI advisor here to help you navigate through our university. It looks like you're a domestic student at our esteemed institution, offering programs in Technology, Management, and Sciences. Established in 1985, we are ranked among the top 50 universities in India by NIRF.\n\nIf you're looking for academic guidance, let me introduce you to some of our distinguished faculty members:\n\n1. Dr. Vijay Sharma, Dean of Research in Research, specializes in Research Methodology and HCI. He teaches the PHD901 course and can be found in Admin Block, Room 305 during his consultation hours on Fridays from 2:00-4:00 PM (by appointment).\n\n2. Prof. Deepa Iyer, a Professor in Management, focuses on Strategy and Entrepreneurship. She teaches MBA501 and can be found in the MBA Block, Room 201 during her consultation hours on Mondays and Wednesdays from 5:00-7:00 PM.\n\n3. Dr. Priya Nair, an Associate Professor in Computer Science, is an expert in Artificial Intelligence and NLP. She teaches AI101 and can be found in the CS Block, Room 205 during her consultation hours on Mondays and Fridays from 11:00 AM-1:00 PM.\n\n4. Dr. Kiran Mehta, a Professor in Computer Science, specializes in Machine Learning and Deep Learning. He teaches ML301 and can be found in the CS Block, Room 301 during his consultation hours on Wednesdays and Fridays from 2:00-4:00 PM.\n\nRemember to verify all critical information with official university sources for accuracy. If you have any questions or need further assistance, feel free to ask!",
+      "timestamp": "2026-03-25T19:56:20.920548"
+    },
+    {
+      "role": "user",
+      "content": "What is the minimum attendance required?",
+      "timestamp": "2026-03-25T19:57:29.055595"
+    },
+    {
+      "role": "assistant",
+      "content": " As a domestic student at our university, it's important to maintain a minimum attendance of 75% in each course according to the Attendance Policy (SECTION 1). If you fall below this requirement, you may be debarred from end-semester exams. Medical leave requires submission of a doctor's certificate within 3 working days, and students on official duty (NCC, NSS, Sports) are marked present if prior permission is obtained. Condonation of shortage in attendance (up to 10%) may be considered by the HOD in genuine cases with written application.\n\nIf you have any questions or need further assistance, feel free to ask! And remember to verify critical information with official university sources for accuracy.",
+      "timestamp": "2026-03-25T20:01:07.442911"
+    },
+    {
+      "role": "user",
+      "content": "Hii, my name is Karthik",
+      "timestamp": "2026-03-25T20:02:41.021315"
+    }
+  ],
+  "summary": "",
+  "turn_count": 3
+}

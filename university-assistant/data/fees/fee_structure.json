@@ -1,0 +1,160 @@
+{
+  "programs": {
+    "BTech": {
+      "domestic": {
+        "tuition_per_semester": 85000,
+        "hostel_per_semester": 35000,
+        "mess_per_semester": 25000,
+        "library_fee": 2000,
+        "lab_fee": 5000,
+        "sports_fee": 1500,
+        "medical_fee": 1500,
+        "student_activity_fee": 1000,
+        "total_per_semester_without_hostel": 95000,
+        "total_per_semester_with_hostel": 155000
+      },
+      "international": {
+        "tuition_per_semester": 180000,
+        "hostel_per_semester": 50000,
+        "mess_per_semester": 30000,
+        "library_fee": 3000,
+        "lab_fee": 7000,
+        "sports_fee": 2000,
+        "medical_fee": 2500,
+        "student_activity_fee": 1500,
+        "total_per_semester_without_hostel": 196000,
+        "total_per_semester_with_hostel": 276000
+      },
+      "payment_deadline": "15th July (Odd), 15th January (Even)",
+      "late_fine_per_day": 100
+    },
+    "MBA": {
+      "domestic": {
+        "tuition_per_semester": 120000,
+        "hostel_per_semester": 35000,
+        "mess_per_semester": 25000,
+        "library_fee": 3000,
+        "case_study_material_fee": 5000,
+        "sports_fee": 1500,
+        "medical_fee": 1500,
+        "total_per_semester_without_hostel": 131000,
+        "total_per_semester_with_hostel": 191000
+      },
+      "international": {
+        "tuition_per_semester": 250000,
+        "hostel_per_semester": 50000,
+        "mess_per_semester": 30000,
+        "library_fee": 4000,
+        "case_study_material_fee": 7000,
+        "sports_fee": 2000,
+        "medical_fee": 2500,
+        "total_per_semester_without_hostel": 265500,
+        "total_per_semester_with_hostel": 345500
+      },
+      "payment_deadline": "15th July (Odd), 15th January (Even)",
+      "late_fine_per_day": 150
+    },
+    "MSc": {
+      "domestic": {
+        "tuition_per_semester": 55000,
+        "hostel_per_semester": 35000,
+        "mess_per_semester": 25000,
+        "library_fee": 2000,
+        "lab_fee": 3000,
+        "medical_fee": 1500,
+        "total_per_semester_without_hostel": 61500,
+        "total_per_semester_with_hostel": 121500
+      },
+      "international": {
+        "tuition_per_semester": 130000,
+        "hostel_per_semester": 50000,
+        "mess_per_semester": 30000,
+        "library_fee": 3000,
+        "lab_fee": 5000,
+        "medical_fee": 2500,
+        "total_per_semester_without_hostel": 140500,
+        "total_per_semester_with_hostel": 220500
+      },
+      "payment_deadline": "15th July (Odd), 15th January (Even)",
+      "late_fine_per_day": 100
+    },
+    "PhD": {
+      "domestic": {
+        "tuition_per_year": 40000,
+        "hostel_per_semester": 35000,
+        "mess_per_semester": 25000,
+        "library_fee": 2000,
+        "lab_fee": 5000,
+        "medical_fee": 1500,
+        "note": "JRF/SRF fellows may have tuition waived"
+      },
+      "international": {
+        "tuition_per_year": 100000,
+        "hostel_per_semester": 50000,
+        "mess_per_semester": 30000,
+        "library_fee": 3000,
+        "lab_fee": 7000,
+        "medical_fee": 2500
+      },
+      "payment_deadline": "1st August (Annual)",
+      "late_fine_per_day": 100
+    }
+  },
+  "scholarships": [
+    {
+      "name": "Merit Scholarship",
+      "programs": ["BTech", "MSc"],
+      "eligibility": "Top 5% of intake batch by entrance score",
+      "benefit": "50% tuition waiver per semester",
+      "renewal": "Maintain CGPA >= 8.5",
+      "application_deadline": "2024-08-15"
+    },
+    {
+      "name": "Need-Based Financial Aid",
+      "programs": ["BTech", "MBA", "MSc"],
+      "eligibility": "Family income < 5 LPA, verified by income certificate",
+      "benefit": "Up to 75% tuition waiver",
+      "renewal": "Annual re-application",
+      "application_deadline": "2024-08-01"
+    },
+    {
+      "name": "Sports Excellence Scholarship",
+      "programs": ["BTech", "MSc", "MBA"],
+      "eligibility": "National/International level athletes",
+      "benefit": "Full tuition waiver + hostel",
+      "renewal": "Continue participation in university sports",
+      "application_deadline": "2024-07-31"
+    },
+    {
+      "name": "SC/ST Scholarship",
+      "programs": ["BTech", "MSc", "MBA", "PhD"],
+      "eligibility": "SC/ST category with valid certificate",
+      "benefit": "Full tuition waiver + stipend of Rs. 3000/month",
+      "renewal": "Annual",
+      "application_deadline": "2024-08-15"
+    },
+    {
+      "name": "International Exchange Scholarship",
+      "programs": ["BTech", "MSc"],
+      "eligibility": "Selected for exchange program, CGPA >= 7.5",
+      "benefit": "Travel grant up to Rs. 1,50,000 + tuition waiver at home university",
+      "renewal": "One-time",
+      "application_deadline": "Rolling basis"
+    },
+    {
+      "name": "PhD Research Fellowship",
+      "programs": ["PhD"],
+      "eligibility": "NET/GATE qualified candidates",
+      "benefit": "Stipend Rs. 31,000/month (JRF) or Rs. 35,000/month (SRF) + full tuition",
+      "renewal": "Annual review",
+      "application_deadline": "2024-07-15"
+    }
+  ],
+  "payment_modes": ["Online Portal (preferred)", "DD/Cheque", "Bank Transfer"],
+  "bank_details": {
+    "bank": "State Bank of India",
+    "account_name": "University Fee Collection A/C",
+    "account_number": "XXXX-XXXX-1234",
+    "ifsc": "SBIN0012345"
+  }
+}

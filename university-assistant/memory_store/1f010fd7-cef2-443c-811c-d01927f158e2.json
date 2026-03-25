@@ -1,0 +1,41 @@
+{
+  "session_id": "1f010fd7-cef2-443c-811c-d01927f158e2",
+  "entity": {
+    "name": "Karthik",
+    "student_id": null,
+    "program": null,
+    "year": null,
+    "department": null,
+    "nationality": "domestic",
+    "email": null,
+    "interests": [],
+    "completed_courses": [],
+    "ongoing_issues": [],
+    "created_at": "2026-03-25T20:14:50.029443",
+    "updated_at": "2026-03-25T20:14:50.029443"
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hii my name is Karthik",
+      "timestamp": "2026-03-25T20:14:50.029443"
+    },
+    {
+      "role": "assistant",
+      "content": " Hello Karthik! It's great to meet you. I'm here to help you navigate your university journey. If you have any questions about academics, course selection, deadlines, fees, campus navigation, placement guidelines, or administrative queries, feel free to ask.\n\nLet me introduce you to some of our esteemed faculty members who teach various courses:\n\n1. Prof. Deepa Iyer - Professor in Management. She specializes in Strategy and Entrepreneurship and teaches MBA501. Her consultation hours are on Monday and Wednesday from 5:00-7:00 PM, located in the MBA Block, Room 201.\n\n2. Dr. Kiran Mehta - Professor in Computer Science. He specializes in Machine Learning and Deep Learning and teaches ML301. His consultation hours are on Wednesday and Friday from 2:00-4:00 PM, located in the CS Block, Room 301.\n\n3. Dr. Priya Nair - Associate Professor in Computer Science. She specializes in Artificial Intelligence and NLP and teaches AI101. Her consultation hours are on Monday and Friday from 11:00 AM-1:00 PM, located in the CS Block, Room 205.\n\n4. Dr. Vijay Sharma - Dean of Research. He specializes in Research Methodology and HCI and teaches PHD901. His consultation hours are on Friday from 2:00-4:00 PM (by appointment), located in the Admin Block, Room 305.\n\nRemember, it's always a good idea to verify critical information with official university sources. Here are some important contacts you might find useful:\n\n- Dean of Students: dean.students@university.edu | Ext: 6000\n- Dean of Academics: dean.academics@university.edu | Ext: 6001\n- Dean of Research: dean.research@university.edu | Ext: 6002\n- Registrar's Office: registrar@university.edu | Ext: 6003\n- Examinations Cell: exams@university.edu | Ext: 6004\n- Finance Office: finance@university.edu | Ext: 6005\n\nIf you have any questions or need further assistance, don't hesitate to ask!",
+      "timestamp": "2026-03-25T20:18:55.788603"
+    },
+    {
+      "role": "user",
+      "content": "What is my name?",
+      "timestamp": "2026-03-25T20:19:21.129732"
+    },
+    {
+      "role": "assistant",
+      "content": " Your name is Karthik! I'm here to help you navigate your university journey and answer any questions you might have about academics, course selection, deadlines, fees, campus navigation, placement guidelines, or administrative queries. Let me introduce you to some of our esteemed faculty members who teach various courses:\n\n1. Dr. Kiran Mehta - Professor in Computer Science. He specializes in Machine Learning and Deep Learning and teaches ML301. His consultation hours are on Wednesday and Friday from 2:00-4:00 PM, located in the CS Block, Room 301.\n\n2. Dr. Priya Nair - Associate Professor in Computer Science. She specializes in Artificial Intelligence and NLP and teaches AI101. Her consultation hours are on Monday and Friday from 11:00 AM-1:00 PM, located in the CS Block, Room 205.\n\n3. Dr. Anita Sharma - Professor in Computer Science. She specializes in Programming Languages, Compilers and teaches CS101. Her consultation hours are on Monday and Wednesday from 2:00-4:00 PM, located in the CS Block, Room 201.\n\n4. Dr. Lakshmi Rao - Assistant Professor in Computer Science. She specializes in Computer Networks, Cybersecurity and teaches courses related to it. Her consultation hours are on Monday, Wednesday, and Friday from 3:00-4:00 PM, located in the CS Block, Room 110.\n\nRemember, it's always a good idea to verify critical information with official university sources. Here are some important contacts you might find useful:\n\n- Dean of Students: dean.students@university.edu | Ext: 6000\n- Dean of Academics: dean.academics@university.edu | Ext: 6001\n- Dean of Research: dean.research@university.edu | Ext: 6002\n- Registrar's Office: registrar@university.edu | Ext: 6003\n- Examinations Cell: exams@university.edu | Ext: 6004\n- Finance Office: finance@university.edu | Ext: 6005\n- Health Center (Emergency): +91-80-2345-6999\n\nIf you have any questions or need further assistance, don't hesitate to ask!",
+      "timestamp": "2026-03-25T20:26:11.345234"
+    }
+  ],
+  "summary": "",
+  "turn_count": 2
+}

@@ -1,145 +1,147 @@
-[
-  {
-    "timetable_id": "T001",
-    "department": "CSE",
-    "year": 4,
-    "section": "A",
-    "day": "Monday",
-    "slots": [
-      {
-        "time": "09:00-10:00",
-        "course_id": "C101",
-        "course_name": "Machine Learning",
-        "faculty": "Dr. Srinivas Rao",
-        "room": "Room 301"
+{
+  "timetables": {
+    "BTech": {
+      "Year1": {
+        "Monday": [
+          {"time": "8:00-9:00", "subject": "MATH101", "room": "LH-102", "type": "Lecture"},
+          {"time": "9:00-10:00", "subject": "CS101", "room": "LH-101", "type": "Lecture"},
+          {"time": "10:00-11:00", "subject": "PHY101", "room": "LH-104", "type": "Lecture"},
+          {"time": "11:00-12:00", "subject": "ENG101", "room": "LH-105", "type": "Lecture"},
+          {"time": "14:00-17:00", "subject": "CS101 Lab", "room": "CS-Lab-1", "type": "Lab"}
+        ],
+        "Tuesday": [
+          {"time": "8:00-9:00", "subject": "MATH101", "room": "LH-102", "type": "Lecture"},
+          {"time": "9:00-10:00", "subject": "PHY101", "room": "LH-104", "type": "Lecture"},
+          {"time": "10:00-11:30", "subject": "STAT101", "room": "LH-103", "type": "Lecture"},
+          {"time": "14:00-17:00", "subject": "DS201 Lab", "room": "DS-Lab-1", "type": "Lab"}
+        ],
+        "Wednesday": [
+          {"time": "8:00-9:00", "subject": "MATH101", "room": "LH-102", "type": "Lecture"},
+          {"time": "9:00-10:00", "subject": "CS101", "room": "LH-101", "type": "Lecture"},
+          {"time": "10:30-12:00", "subject": "STAT101", "room": "LH-103", "type": "Lecture"},
+          {"time": "14:00-16:00", "subject": "Library/Self Study", "room": "Library", "type": "Free"}
+        ],
+        "Thursday": [
+          {"time": "8:00-9:00", "subject": "MATH101", "room": "LH-102", "type": "Lecture"},
+          {"time": "9:00-10:00", "subject": "ENG101", "room": "LH-105", "type": "Lecture"},
+          {"time": "14:00-17:00", "subject": "CS101 Lab", "room": "CS-Lab-2", "type": "Lab"}
+        ],
+        "Friday": [
+          {"time": "9:00-10:00", "subject": "CS101", "room": "LH-101", "type": "Lecture"},
+          {"time": "10:30-12:00", "subject": "STAT101", "room": "LH-103", "type": "Lecture"},
+          {"time": "14:00-15:00", "subject": "PHY101 Tutorial", "room": "TH-101", "type": "Tutorial"}
+        ],
+        "Saturday": [
+          {"time": "9:00-12:00", "subject": "Workshop/Elective", "room": "Workshop-1", "type": "Elective"},
+          {"time": "14:00-15:00", "subject": "Mentor Session", "room": "Seminar Hall", "type": "Activity"}
+        ]
       },
-      {
-        "time": "10:00-11:00",
-        "course_id": "C102",
-        "course_name": "Distributed Systems",
-        "faculty": "Dr. Meena Iyer",
-        "room": "Room 302"
+      "Year2": {
+        "Monday": [
+          {"time": "9:00-10:00", "subject": "CS201", "room": "LH-203", "type": "Lecture"},
+          {"time": "10:00-11:00", "subject": "DBMS201", "room": "LH-204", "type": "Lecture"},
+          {"time": "14:00-17:00", "subject": "DS201 Lab", "room": "DS-Lab-2", "type": "Lab"}
+        ],
+        "Tuesday": [
+          {"time": "10:00-11:30", "subject": "CS201", "room": "LH-203", "type": "Lecture"},
+          {"time": "14:00-17:00", "subject": "DS201 Lab", "room": "DS-Lab-1", "type": "Lab"}
+        ],
+        "Wednesday": [
+          {"time": "9:00-10:00", "subject": "MATH201", "room": "LH-201", "type": "Lecture"},
+          {"time": "14:00-17:00", "subject": "CS201 Lab", "room": "CS-Lab-3", "type": "Lab"}
+        ],
+        "Thursday": [
+          {"time": "10:00-11:30", "subject": "CS201", "room": "LH-203", "type": "Lecture"},
+          {"time": "11:00-12:30", "subject": "MATH201", "room": "LH-201", "type": "Lecture"}
+        ],
+        "Friday": [
+          {"time": "14:00-17:00", "subject": "CS201 Lab", "room": "CS-Lab-3", "type": "Lab"}
+        ],
+        "Saturday": [
+          {"time": "10:00-11:30", "subject": "DS201", "room": "LH-202", "type": "Lecture"}
+        ]
       },
-      {
-        "time": "11:15-12:15",
-        "course_id": "C103",
-        "course_name": "Database Systems",
-        "faculty": "Dr. Ramesh Kumar",
-        "room": "Room 303"
+      "Year3": {
+        "Monday": [
+          {"time": "11:00-12:30", "subject": "AI101", "room": "LH-305", "type": "Lecture"},
+          {"time": "14:00-17:00", "subject": "ML301 Lab", "room": "AI-Lab-1", "type": "Lab"}
+        ],
+        "Tuesday": [
+          {"time": "9:00-10:00", "subject": "ML301", "room": "LH-401", "type": "Lecture"}
+        ],
+        "Wednesday": [
+          {"time": "9:00-10:00", "subject": "ML301", "room": "LH-401", "type": "Lecture"},
+          {"time": "11:00-12:30", "subject": "AI101", "room": "LH-305", "type": "Lecture"},
+          {"time": "14:00-17:00", "subject": "ML301 Lab", "room": "AI-Lab-2", "type": "Lab"}
+        ],
+        "Thursday": [
+          {"time": "9:00-10:00", "subject": "ML301", "room": "LH-401", "type": "Lecture"}
+        ],
+        "Friday": [
+          {"time": "9:00-10:00", "subject": "ML301", "room": "LH-401", "type": "Lecture"},
+          {"time": "10:00-13:00", "subject": "AI101 Lab", "room": "AI-Lab-1", "type": "Lab"}
+        ],
+        "Saturday": []
+      },
+      "Year4": {
+        "Monday": [
+          {"time": "9:00-11:00", "subject": "Project Work", "room": "Lab-Assigned", "type": "Project"},
+          {"time": "14:00-17:00", "subject": "Elective-1", "room": "LH-Assigned", "type": "Elective"}
+        ],
+        "Wednesday": [
+          {"time": "9:00-11:00", "subject": "Project Work", "room": "Lab-Assigned", "type": "Project"}
+        ],
+        "Friday": [
+          {"time": "9:00-11:00", "subject": "Project Work", "room": "Lab-Assigned", "type": "Project"},
+          {"time": "14:00-15:00", "subject": "Project Review", "room": "Seminar Hall", "type": "Review"}
+        ]
       }
-    ]
+    },
+    "MBA": {
+      "Year1": {
+        "Monday": [
+          {"time": "18:00-19:00", "subject": "MBA501", "room": "MBA-101", "type": "Lecture"},
+          {"time": "19:00-20:00", "subject": "MBA502", "room": "MBA-101", "type": "Lecture"}
+        ],
+        "Wednesday": [
+          {"time": "18:00-19:00", "subject": "MBA501", "room": "MBA-101", "type": "Lecture"},
+          {"time": "19:00-20:00", "subject": "MBA503", "room": "MBA-102", "type": "Lecture"}
+        ],
+        "Friday": [
+          {"time": "18:00-19:00", "subject": "MBA501", "room": "MBA-101", "type": "Lecture"},
+          {"time": "19:00-20:30", "subject": "Case Study Session", "room": "MBA-Seminar", "type": "Seminar"}
+        ],
+        "Saturday": [
+          {"time": "9:00-12:00", "subject": "Workshop/Guest Lecture", "room": "Auditorium", "type": "Workshop"},
+          {"time": "14:00-17:00", "subject": "Group Work / Presentations", "room": "MBA-Seminar", "type": "Project"}
+        ]
+      }
+    },
+    "PhD": {
+      "Year1": {
+        "Friday": [
+          {"time": "14:00-17:00", "subject": "PHD901", "room": "R-101", "type": "Lecture"}
+        ]
+      }
+    }
   },
-  {
-    "timetable_id": "T002",
-    "department": "CSE",
-    "year": 4,
-    "section": "A",
-    "day": "Tuesday",
-    "slots": [
-      {
-        "time": "09:00-10:00",
-        "course_id": "C101",
-        "course_name": "Machine Learning",
-        "faculty": "Dr. Srinivas Rao",
-        "room": "Room 301"
-      },
-      {
-        "time": "10:00-11:00",
-        "course_id": "C104",
-        "course_name": "Computer Networks",
-        "faculty": "Dr. Kavita Nair",
-        "room": "Room 305"
-      },
-      {
-        "time": "11:15-01:15",
-        "course_id": "C105",
-        "course_name": "Machine Learning Lab",
-        "faculty": "Dr. Srinivas Rao",
-        "room": "Lab 1"
-      }
-    ]
-  },
-  {
-    "timetable_id": "T003",
-    "department": "CSE",
-    "year": 4,
-    "section": "A",
-    "day": "Wednesday",
-    "slots": [
-      {
-        "time": "09:00-10:00",
-        "course_id": "C102",
-        "course_name": "Distributed Systems",
-        "faculty": "Dr. Meena Iyer",
-        "room": "Room 302"
-      },
-      {
-        "time": "10:00-11:00",
-        "course_id": "C103",
-        "course_name": "Database Systems",
-        "faculty": "Dr. Ramesh Kumar",
-        "room": "Room 303"
-      },
-      {
-        "time": "11:15-12:15",
-        "course_id": "C104",
-        "course_name": "Computer Networks",
-        "faculty": "Dr. Kavita Nair",
-        "room": "Room 305"
-      }
-    ]
-  },
-  {
-    "timetable_id": "T004",
-    "department": "CSE",
-    "year": 4,
-    "section": "A",
-    "day": "Thursday",
-    "slots": [
-      {
-        "time": "09:00-11:00",
-        "course_id": "C106",
-        "course_name": "Distributed Systems Lab",
-        "faculty": "Dr. Meena Iyer",
-        "room": "Lab 2"
-      },
-      {
-        "time": "11:15-12:15",
-        "course_id": "C101",
-        "course_name": "Machine Learning",
-        "faculty": "Dr. Srinivas Rao",
-        "room": "Room 301"
-      }
-    ]
-  },
-  {
-    "timetable_id": "T005",
-    "department": "CSE",
-    "year": 4,
-    "section": "A",
-    "day": "Friday",
-    "slots": [
-      {
-        "time": "09:00-10:00",
-        "course_id": "C103",
-        "course_name": "Database Systems",
-        "faculty": "Dr. Ramesh Kumar",
-        "room": "Room 303"
-      },
-      {
-        "time": "10:00-11:00",
-        "course_id": "C104",
-        "course_name": "Computer Networks",
-        "faculty": "Dr. Kavita Nair",
-        "room": "Room 305"
-      },
-      {
-        "time": "11:15-12:15",
-        "course_id": "C102",
-        "course_name": "Distributed Systems",
-        "faculty": "Dr. Meena Iyer",
-        "room": "Room 302"
-      }
-    ]
+  "campus_locations": {
+    "LH-101": {"building": "Lecture Hall Complex", "floor": "Ground", "capacity": 120},
+    "LH-102": {"building": "Lecture Hall Complex", "floor": "Ground", "capacity": 120},
+    "LH-201": {"building": "Lecture Hall Complex", "floor": "First", "capacity": 90},
+    "LH-203": {"building": "Lecture Hall Complex", "floor": "First", "capacity": 90},
+    "LH-305": {"building": "Lecture Hall Complex", "floor": "Third", "capacity": 60},
+    "LH-401": {"building": "Lecture Hall Complex", "floor": "Fourth", "capacity": 60},
+    "CS-Lab-1": {"building": "CS Block", "floor": "Ground", "capacity": 40},
+    "CS-Lab-2": {"building": "CS Block", "floor": "Ground", "capacity": 40},
+    "CS-Lab-3": {"building": "CS Block", "floor": "First", "capacity": 40},
+    "AI-Lab-1": {"building": "CS Block", "floor": "Second", "capacity": 30},
+    "AI-Lab-2": {"building": "CS Block", "floor": "Second", "capacity": 30},
+    "DS-Lab-1": {"building": "DS Block", "floor": "Ground", "capacity": 40},
+    "DS-Lab-2": {"building": "DS Block", "floor": "Ground", "capacity": 40},
+    "MBA-101": {"building": "MBA Block", "floor": "Ground", "capacity": 80},
+    "MBA-102": {"building": "MBA Block", "floor": "Ground", "capacity": 80},
+    "MBA-Seminar": {"building": "MBA Block", "floor": "First", "capacity": 50},
+    "R-101": {"building": "Research Block", "floor": "Ground", "capacity": 25}
   }
-]
+}

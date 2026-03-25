@@ -1,30 +1,154 @@
-[
-  {
-    "course_id": "C101",
-    "course_name": "Machine Learning",
-    "credits": 4,
-    "department": "CSE",
-    "faculty_id": "F001"
-  },
-  {
-    "course_id": "C102",
-    "course_name": "Distributed Systems",
-    "credits": 3,
-    "department": "CSE",
-    "faculty_id": "F002"
-  },
-  {
-    "course_id": "C201",
-    "course_name": "Digital Electronics",
-    "credits": 4,
-    "department": "ECE",
-    "faculty_id": "F003"
-  },
-  {
-    "course_id": "C202",
-    "course_name": "Microprocessors",
-    "credits": 3,
-    "department": "ECE",
-    "faculty_id": "F004"
-  }
-]
+{
+  "courses": [
+    {
+      "code": "CS101",
+      "title": "Introduction to Programming",
+      "credits": 4,
+      "department": "Computer Science",
+      "programs": ["BTech", "BSc"],
+      "year": 1,
+      "prerequisites": [],
+      "syllabus": ["Python basics", "Control flow", "Functions", "OOP intro", "Data structures basics"],
+      "lecture_timings": "Mon/Wed/Fri 9:00-10:00 AM",
+      "lab_timings": "Thu 2:00-5:00 PM",
+      "classroom": "LH-101",
+      "faculty": "Dr. Anita Sharma",
+      "description": "Foundation course covering programming paradigms using Python."
+    },
+    {
+      "code": "CS201",
+      "title": "Data Structures & Algorithms",
+      "credits": 4,
+      "department": "Computer Science",
+      "programs": ["BTech", "BSc"],
+      "year": 2,
+      "prerequisites": ["CS101"],
+      "syllabus": ["Arrays", "Linked Lists", "Trees", "Graphs", "Sorting", "Dynamic Programming"],
+      "lecture_timings": "Tue/Thu 10:00-11:30 AM",
+      "lab_timings": "Fri 2:00-5:00 PM",
+      "classroom": "LH-203",
+      "faculty": "Dr. Ravi Kumar",
+      "description": "Core algorithms and data structure design and analysis."
+    },
+    {
+      "code": "AI101",
+      "title": "Introduction to Artificial Intelligence",
+      "credits": 3,
+      "department": "Computer Science",
+      "programs": ["BTech", "MSc", "MBA"],
+      "year": 3,
+      "prerequisites": ["CS201", "MATH201"],
+      "syllabus": ["Search Algorithms", "Knowledge Representation", "Planning", "ML Overview", "Neural Networks intro"],
+      "lecture_timings": "Mon/Wed 11:00 AM-12:30 PM",
+      "lab_timings": "Sat 10:00 AM-1:00 PM",
+      "classroom": "LH-305",
+      "faculty": "Dr. Priya Nair",
+      "description": "Foundational AI concepts including search, logic, and machine learning."
+    },
+    {
+      "code": "ML301",
+      "title": "Machine Learning",
+      "credits": 4,
+      "department": "Computer Science",
+      "programs": ["BTech", "MSc", "PhD"],
+      "year": 3,
+      "prerequisites": ["AI101", "MATH301", "STAT201"],
+      "syllabus": ["Regression", "Classification", "Clustering", "SVM", "Neural Networks", "Model Evaluation"],
+      "lecture_timings": "Tue/Thu/Fri 9:00-10:00 AM",
+      "lab_timings": "Wed 2:00-5:00 PM",
+      "classroom": "LH-401",
+      "faculty": "Dr. Kiran Mehta",
+      "description": "Supervised, unsupervised and reinforcement learning techniques."
+    },
+    {
+      "code": "DS201",
+      "title": "Data Science Fundamentals",
+      "credits": 4,
+      "department": "Data Science",
+      "programs": ["BTech", "MSc", "MBA"],
+      "year": 2,
+      "prerequisites": ["CS101", "STAT101"],
+      "syllabus": ["Pandas", "NumPy", "Data Cleaning", "Visualization", "Statistical Analysis", "EDA"],
+      "lecture_timings": "Mon/Wed/Fri 2:00-3:00 PM",
+      "lab_timings": "Tue 2:00-5:00 PM",
+      "classroom": "LH-202",
+      "faculty": "Dr. Suresh Reddy",
+      "description": "Practical data science skills from ingestion to insights."
+    },
+    {
+      "code": "MATH101",
+      "title": "Engineering Mathematics I",
+      "credits": 4,
+      "department": "Mathematics",
+      "programs": ["BTech"],
+      "year": 1,
+      "prerequisites": [],
+      "syllabus": ["Calculus", "Linear Algebra", "Differential Equations", "Matrices"],
+      "lecture_timings": "Mon/Tue/Wed/Thu 8:00-9:00 AM",
+      "lab_timings": null,
+      "classroom": "LH-102",
+      "faculty": "Dr. Meena Joshi",
+      "description": "Mathematical foundations for engineering students."
+    },
+    {
+      "code": "MATH201",
+      "title": "Probability & Statistics",
+      "credits": 3,
+      "department": "Mathematics",
+      "programs": ["BTech", "MSc"],
+      "year": 2,
+      "prerequisites": ["MATH101"],
+      "syllabus": ["Probability", "Random Variables", "Distributions", "Hypothesis Testing", "Regression"],
+      "lecture_timings": "Tue/Thu 11:00 AM-12:30 PM",
+      "lab_timings": null,
+      "classroom": "LH-201",
+      "faculty": "Dr. Arun Pillai",
+      "description": "Probability theory and statistical methods."
+    },
+    {
+      "code": "MBA501",
+      "title": "Strategic Management",
+      "credits": 3,
+      "department": "Management",
+      "programs": ["MBA"],
+      "year": 1,
+      "prerequisites": [],
+      "syllabus": ["Business Strategy", "Competitive Analysis", "Porter's Five Forces", "Case Studies", "Leadership"],
+      "lecture_timings": "Mon/Wed/Fri 6:00-7:00 PM",
+      "lab_timings": null,
+      "classroom": "MBA-101",
+      "faculty": "Prof. Deepa Iyer",
+      "description": "Strategic thinking and managerial decision-making."
+    },
+    {
+      "code": "PHD901",
+      "title": "Research Methodology",
+      "credits": 3,
+      "department": "Research",
+      "programs": ["PhD"],
+      "year": 1,
+      "prerequisites": [],
+      "syllabus": ["Research Design", "Literature Review", "Quantitative Methods", "Qualitative Methods", "Academic Writing"],
+      "lecture_timings": "Fri 2:00-5:00 PM",
+      "lab_timings": null,
+      "classroom": "R-101",
+      "faculty": "Dr. Vijay Sharma",
+      "description": "Foundation for doctoral-level research skills."
+    },
+    {
+      "code": "STAT101",
+      "title": "Statistics for Engineers",
+      "credits": 3,
+      "department": "Mathematics",
+      "programs": ["BTech", "BSc"],
+      "year": 1,
+      "prerequisites": [],
+      "syllabus": ["Descriptive Statistics", "Probability", "Distributions", "Sampling", "Hypothesis Testing"],
+      "lecture_timings": "Wed/Fri 10:00-11:30 AM",
+      "lab_timings": null,
+      "classroom": "LH-103",
+      "faculty": "Dr. Arun Pillai",
+      "description": "Applied statistics for technical disciplines."
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "faculty": [
+    {
+      "name": "Dr. Anita Sharma",
+      "department": "Computer Science",
+      "designation": "Professor",
+      "email": "anita.sharma@university.edu",
+      "phone": "+91-80-2345-6001",
+      "office": "CS Block, Room 201",
+      "consultation_hours": "Mon/Wed 2:00-4:00 PM",
+      "specialization": "Programming Languages, Compilers",
+      "courses": ["CS101"]
+    },
+    {
+      "name": "Dr. Ravi Kumar",
+      "department": "Computer Science",
+      "designation": "Associate Professor",
+      "email": "ravi.kumar@university.edu",
+      "phone": "+91-80-2345-6002",
+      "office": "CS Block, Room 203",
+      "consultation_hours": "Tue/Thu 3:00-5:00 PM",
+      "specialization": "Algorithms, Data Structures",
+      "courses": ["CS201"]
+    },
+    {
+      "name": "Dr. Priya Nair",
+      "department": "Computer Science",
+      "designation": "Associate Professor",
+      "email": "priya.nair@university.edu",
+      "phone": "+91-80-2345-6003",
+      "office": "CS Block, Room 205",
+      "consultation_hours": "Mon/Fri 11:00 AM-1:00 PM",
+      "specialization": "Artificial Intelligence, NLP",
+      "courses": ["AI101"]
+    },
+    {
+      "name": "Dr. Kiran Mehta",
+      "department": "Computer Science",
+      "designation": "Professor",
+      "email": "kiran.mehta@university.edu",
+      "phone": "+91-80-2345-6004",
+      "office": "CS Block, Room 301",
+      "consultation_hours": "Wed/Fri 2:00-4:00 PM",
+      "specialization": "Machine Learning, Deep Learning",
+      "courses": ["ML301"]
+    },
+    {
+      "name": "Dr. Suresh Reddy",
+      "department": "Data Science",
+      "designation": "Professor",
+      "email": "suresh.reddy@university.edu",
+      "phone": "+91-80-2345-6005",
+      "office": "DS Block, Room 101",
+      "consultation_hours": "Tue/Thu 10:00 AM-12:00 PM",
+      "specialization": "Data Science, Big Data",
+      "courses": ["DS201"]
+    },
+    {
+      "name": "Dr. Meena Joshi",
+      "department": "Mathematics",
+      "designation": "Professor",
+      "email": "meena.joshi@university.edu",
+      "phone": "+91-80-2345-6006",
+      "office": "Math Block, Room 101",
+      "consultation_hours": "Mon/Wed/Fri 9:00-10:00 AM",
+      "specialization": "Applied Mathematics, Calculus",
+      "courses": ["MATH101"]
+    },
+    {
+      "name": "Dr. Arun Pillai",
+      "department": "Mathematics",
+      "designation": "Associate Professor",
+      "email": "arun.pillai@university.edu",
+      "phone": "+91-80-2345-6007",
+      "office": "Math Block, Room 105",
+      "consultation_hours": "Tue/Thu 11:00 AM-1:00 PM",
+      "specialization": "Probability, Statistics",
+      "courses": ["MATH201", "STAT101"]
+    },
+    {
+      "name": "Prof. Deepa Iyer",
+      "department": "Management",
+      "designation": "Professor",
+      "email": "deepa.iyer@university.edu",
+      "phone": "+91-80-2345-6008",
+      "office": "MBA Block, Room 201",
+      "consultation_hours": "Mon/Wed 5:00-7:00 PM",
+      "specialization": "Strategy, Entrepreneurship",
+      "courses": ["MBA501"]
+    },
+    {
+      "name": "Dr. Vijay Sharma",
+      "department": "Research",
+      "designation": "Dean of Research",
+      "email": "vijay.sharma@university.edu",
+      "phone": "+91-80-2345-6009",
+      "office": "Admin Block, Room 305",
+      "consultation_hours": "Fri 2:00-4:00 PM (by appointment)",
+      "specialization": "Research Methodology, HCI",
+      "courses": ["PHD901"]
+    },
+    {
+      "name": "Dr. Lakshmi Rao",
+      "department": "Computer Science",
+      "designation": "Assistant Professor",
+      "email": "lakshmi.rao@university.edu",
+      "phone": "+91-80-2345-6010",
+      "office": "CS Block, Room 110",
+      "consultation_hours": "Mon/Wed/Fri 3:00-4:00 PM",
+      "specialization": "Computer Networks, Cybersecurity",
+      "courses": []
+    }
+  ],
+  "departments": [
+    {
+      "name": "Computer Science",
+      "hod": "Dr. Anita Sharma",
+      "location": "CS Block, Ground Floor",
+      "phone": "+91-80-2345-6100",
+      "email": "hod.cs@university.edu"
+    },
+    {
+      "name": "Data Science",
+      "hod": "Dr. Suresh Reddy",
+      "location": "DS Block, Ground Floor",
+      "phone": "+91-80-2345-6200",
+      "email": "hod.ds@university.edu"
+    },
+    {
+      "name": "Mathematics",
+      "hod": "Dr. Meena Joshi",
+      "location": "Math Block, Ground Floor",
+      "phone": "+91-80-2345-6300",
+      "email": "hod.math@university.edu"
+    },
+    {
+      "name": "Management",
+      "hod": "Prof. Deepa Iyer",
+      "location": "MBA Block, Ground Floor",
+      "phone": "+91-80-2345-6400",
+      "email": "hod.mba@university.edu"
+    },
+    {
+      "name": "Research",
+      "hod": "Dr. Vijay Sharma",
+      "location": "Admin Block, 3rd Floor",
+      "phone": "+91-80-2345-6500",
+      "email": "research@university.edu"
+    }
+  ]
+}
