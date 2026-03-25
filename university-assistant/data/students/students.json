@@ -1,0 +1,32 @@
+[
+  {
+    "student_id": "S001",
+    "name": "Karthik Malugu",
+    "email": "karthik@example.com",
+    "department": "CSE",
+    "year": 4,
+    "cgpa": 8.6,
+    "skills": ["Python", "Machine Learning", "FastAPI"],
+    "enrolled_courses": ["C101", "C102"]
+  },
+  {
+    "student_id": "S002",
+    "name": "Ananya Sharma",
+    "email": "ananya@example.com",
+    "department": "ECE",
+    "year": 3,
+    "cgpa": 8.9,
+    "skills": ["VLSI", "Embedded Systems"],
+    "enrolled_courses": ["C201", "C202"]
+  },
+  {
+    "student_id": "S003",
+    "name": "Rahul Verma",
+    "email": "rahul@example.com",
+    "department": "CSE",
+    "year": 2,
+    "cgpa": 7.8,
+    "skills": ["Java", "DBMS"],
+    "enrolled_courses": ["C101", "C103"]
+  }
+]

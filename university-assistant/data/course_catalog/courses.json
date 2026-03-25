@@ -1,0 +1,30 @@
+[
+  {
+    "course_id": "C101",
+    "course_name": "Machine Learning",
+    "credits": 4,
+    "department": "CSE",
+    "faculty_id": "F001"
+  },
+  {
+    "course_id": "C102",
+    "course_name": "Distributed Systems",
+    "credits": 3,
+    "department": "CSE",
+    "faculty_id": "F002"
+  },
+  {
+    "course_id": "C201",
+    "course_name": "Digital Electronics",
+    "credits": 4,
+    "department": "ECE",
+    "faculty_id": "F003"
+  },
+  {
+    "course_id": "C202",
+    "course_name": "Microprocessors",
+    "credits": 3,
+    "department": "ECE",
+    "faculty_id": "F004"
+  }
+]

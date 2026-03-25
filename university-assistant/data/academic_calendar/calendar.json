@@ -1,0 +1,114 @@
+[
+  {
+    "event_id": "E001",
+    "title": "Semester Start - Odd Semester",
+    "type": "academic",
+    "start_date": "2026-03-01",
+    "end_date": "2026-07-01",
+    "description": "Commencement of odd semester classes for all departments."
+  },
+  {
+    "event_id": "E002",
+    "title": "Course Registration Deadline",
+    "type": "academic",
+    "start_date": "2026-07-10",
+    "end_date": "2026-07-10",
+    "description": "Last date to register for courses without late fee."
+  },
+  {
+    "event_id": "E003",
+    "title": "Internal Assessment 1",
+    "type": "exam",
+    "start_date": "2026-08-10",
+    "end_date": "2026-08-15",
+    "description": "First round of internal examinations."
+  },
+  {
+    "event_id": "E004",
+    "title": "Independence Day Celebration",
+    "type": "holiday",
+    "start_date": "2026-08-15",
+    "end_date": "2026-08-15",
+    "description": "National holiday and campus celebration."
+  },
+  {
+    "event_id": "E005",
+    "title": "Mid-Semester Break",
+    "type": "holiday",
+    "start_date": "2026-09-20",
+    "end_date": "2026-09-25",
+    "description": "Break for students after mid-term exams."
+  },
+  {
+    "event_id": "E006",
+    "title": "Internal Assessment 2",
+    "type": "exam",
+    "start_date": "2026-10-10",
+    "end_date": "2026-10-15",
+    "description": "Second round of internal examinations."
+  },
+  {
+    "event_id": "E007",
+    "title": "Project Submission Deadline",
+    "type": "academic",
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-05",
+    "description": "Final year students must submit project reports."
+  },
+  {
+    "event_id": "E008",
+    "title": "End Semester Exams",
+    "type": "exam",
+    "start_date": "2026-11-20",
+    "end_date": "2026-12-05",
+    "description": "Final examinations for all courses."
+  },
+  {
+    "event_id": "E009",
+    "title": "Semester End",
+    "type": "academic",
+    "start_date": "2026-12-10",
+    "end_date": "2026-12-10",
+    "description": "Conclusion of odd semester."
+  },
+  {
+    "event_id": "E010",
+    "title": "Winter Vacation",
+    "type": "holiday",
+    "start_date": "2026-12-15",
+    "end_date": "2027-01-05",
+    "description": "Winter break for students."
+  },
+  {
+    "event_id": "E011",
+    "title": "Semester Start - Even Semester",
+    "type": "academic",
+    "start_date": "2027-01-10",
+    "end_date": "2027-01-10",
+    "description": "Commencement of even semester classes."
+  },
+  {
+    "event_id": "E012",
+    "title": "Placement Drive - Phase 1",
+    "type": "placement",
+    "start_date": "2026-09-01",
+    "end_date": "2026-09-10",
+    "description": "First phase of campus recruitment."
+  },
+  {
+    "event_id": "E013",
+    "title": "Hackathon Event",
+    "type": "event",
+    "start_date": "2026-10-01",
+    "end_date": "2026-10-02",
+    "description": "24-hour coding hackathon open to all students."
+  },
+  {
+    "event_id": "E014",
+    "title": "Annual Cultural Fest",
+    "type": "event",
+    "start_date": "2026-10-25",
+    "end_date": "2026-10-27",
+    "description": "University-wide cultural festival."
+  }
+]

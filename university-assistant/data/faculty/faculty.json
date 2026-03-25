@@ -1,0 +1,23 @@
+[
+  {
+    "faculty_id": "F001",
+    "name": "Dr. Srinivas Rao",
+    "department": "CSE",
+    "email": "srinivas@univ.edu",
+    "expertise": ["Machine Learning", "AI"]
+  },
+  {
+    "faculty_id": "F002",
+    "name": "Dr. Meena Iyer",
+    "department": "CSE",
+    "email": "meena@univ.edu",
+    "expertise": ["Distributed Systems", "Cloud"]
+  },
+  {
+    "faculty_id": "F003",
+    "name": "Dr. Arjun Patel",
+    "department": "ECE",
+    "email": "arjun@univ.edu",
+    "expertise": ["Digital Circuits"]
+  }
+]

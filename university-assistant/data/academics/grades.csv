@@ -1,0 +1,7 @@
+student_id,course_id,grade,semester
+S001,C101,A,7
+S001,C102,B+,7
+S002,C201,A+,5
+S002,C202,A,5
+S003,C101,B,3
+S003,C103,B+,3

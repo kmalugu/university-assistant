@@ -1,0 +1,145 @@
+[
+  {
+    "timetable_id": "T001",
+    "department": "CSE",
+    "year": 4,
+    "section": "A",
+    "day": "Monday",
+    "slots": [
+      {
+        "time": "09:00-10:00",
+        "course_id": "C101",
+        "course_name": "Machine Learning",
+        "faculty": "Dr. Srinivas Rao",
+        "room": "Room 301"
+      },
+      {
+        "time": "10:00-11:00",
+        "course_id": "C102",
+        "course_name": "Distributed Systems",
+        "faculty": "Dr. Meena Iyer",
+        "room": "Room 302"
+      },
+      {
+        "time": "11:15-12:15",
+        "course_id": "C103",
+        "course_name": "Database Systems",
+        "faculty": "Dr. Ramesh Kumar",
+        "room": "Room 303"
+      }
+    ]
+  },
+  {
+    "timetable_id": "T002",
+    "department": "CSE",
+    "year": 4,
+    "section": "A",
+    "day": "Tuesday",
+    "slots": [
+      {
+        "time": "09:00-10:00",
+        "course_id": "C101",
+        "course_name": "Machine Learning",
+        "faculty": "Dr. Srinivas Rao",
+        "room": "Room 301"
+      },
+      {
+        "time": "10:00-11:00",
+        "course_id": "C104",
+        "course_name": "Computer Networks",
+        "faculty": "Dr. Kavita Nair",
+        "room": "Room 305"
+      },
+      {
+        "time": "11:15-01:15",
+        "course_id": "C105",
+        "course_name": "Machine Learning Lab",
+        "faculty": "Dr. Srinivas Rao",
+        "room": "Lab 1"
+      }
+    ]
+  },
+  {
+    "timetable_id": "T003",
+    "department": "CSE",
+    "year": 4,
+    "section": "A",
+    "day": "Wednesday",
+    "slots": [
+      {
+        "time": "09:00-10:00",
+        "course_id": "C102",
+        "course_name": "Distributed Systems",
+        "faculty": "Dr. Meena Iyer",
+        "room": "Room 302"
+      },
+      {
+        "time": "10:00-11:00",
+        "course_id": "C103",
+        "course_name": "Database Systems",
+        "faculty": "Dr. Ramesh Kumar",
+        "room": "Room 303"
+      },
+      {
+        "time": "11:15-12:15",
+        "course_id": "C104",
+        "course_name": "Computer Networks",
+        "faculty": "Dr. Kavita Nair",
+        "room": "Room 305"
+      }
+    ]
+  },
+  {
+    "timetable_id": "T004",
+    "department": "CSE",
+    "year": 4,
+    "section": "A",
+    "day": "Thursday",
+    "slots": [
+      {
+        "time": "09:00-11:00",
+        "course_id": "C106",
+        "course_name": "Distributed Systems Lab",
+        "faculty": "Dr. Meena Iyer",
+        "room": "Lab 2"
+      },
+      {
+        "time": "11:15-12:15",
+        "course_id": "C101",
+        "course_name": "Machine Learning",
+        "faculty": "Dr. Srinivas Rao",
+        "room": "Room 301"
+      }
+    ]
+  },
+  {
+    "timetable_id": "T005",
+    "department": "CSE",
+    "year": 4,
+    "section": "A",
+    "day": "Friday",
+    "slots": [
+      {
+        "time": "09:00-10:00",
+        "course_id": "C103",
+        "course_name": "Database Systems",
+        "faculty": "Dr. Ramesh Kumar",
+        "room": "Room 303"
+      },
+      {
+        "time": "10:00-11:00",
+        "course_id": "C104",
+        "course_name": "Computer Networks",
+        "faculty": "Dr. Kavita Nair",
+        "room": "Room 305"
+      },
+      {
+        "time": "11:15-12:15",
+        "course_id": "C102",
+        "course_name": "Distributed Systems",
+        "faculty": "Dr. Meena Iyer",
+        "room": "Room 302"
+      }
+    ]
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "program": "BTech",
+    "department": "CSE",
+    "year": 1,
+    "tuition_fee": 120000,
+    "hostel_fee": 60000,
+    "mess_fee": 40000,
+    "exam_fee": 5000,
+    "other_fee": 10000,
+    "total_fee": 235000,
+    "currency": "INR"
+  },
+  {
+    "program": "BTech",
+    "department": "CSE",
+    "year": 2,
+    "tuition_fee": 115000,
+    "hostel_fee": 60000,
+    "mess_fee": 40000,
+    "exam_fee": 5000,
+    "other_fee": 8000,
+    "total_fee": 228000,
+    "currency": "INR"
+  },
+  {
+    "program": "BTech",
+    "department": "CSE",
+    "year": 3,
+    "tuition_fee": 110000,
+    "hostel_fee": 60000,
+    "mess_fee": 40000,
+    "exam_fee": 5000,
+    "other_fee": 8000,
+    "total_fee": 223000,
+    "currency": "INR"
+  },
+  {
+    "program": "BTech",
+    "department": "CSE",
+    "year": 4,
+    "tuition_fee": 110000,
+    "hostel_fee": 60000,
+    "mess_fee": 40000,
+    "exam_fee": 5000,
+    "other_fee": 7000,
+    "total_fee": 222000,
+    "currency": "INR"
+  },
+  {
+    "program": "BTech",
+    "department": "ECE",
+    "year": 1,
+    "tuition_fee": 115000,
+    "hostel_fee": 60000,
+    "mess_fee": 40000,
+    "exam_fee": 5000,
+    "other_fee": 9000,
+    "total_fee": 229000,
+    "currency": "INR"
+  },
+  {
+    "program": "MTech",
+    "department": "CSE",
+    "year": 1,
+    "tuition_fee": 150000,
+    "hostel_fee": 65000,
+    "mess_fee": 45000,
+    "exam_fee": 6000,
+    "other_fee": 12000,
+    "total_fee": 278000,
+    "currency": "INR"
+  },
+  {
+    "program": "MBA",
+    "department": "Management",
+    "year": 1,
+    "tuition_fee": 200000,
+    "hostel_fee": 70000,
+    "mess_fee": 50000,
+    "exam_fee": 8000,
+    "other_fee": 15000,
+    "total_fee": 343000,
+    "currency": "INR"
+  }
+]
