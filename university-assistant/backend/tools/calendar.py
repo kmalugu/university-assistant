@@ -4,7 +4,9 @@ import datetime
 from langchain_core.tools import tool
 from backend.tools.schemas import DateQuery
 
-DATA_FILE = Path("data/academic_calendar/calendar.json")
+BASE_DIR = Path(__file__).resolve().parents[2]
+
+DATA_FILE = "data/academic_calendar/calendar.json"
 
 
 @tool(args_schema=DateQuery)
